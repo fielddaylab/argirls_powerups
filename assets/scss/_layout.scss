@@ -9,12 +9,17 @@
   padding-right:0px;
   width:291px;
   flex-shrink:0;
+  .nav-links-wrap {
+    overflow-y: scroll;
+    max-height: 90vh;
+  }
   .logo {
     padding:20px 20px 0px 20px;
     background:$dark-purple;
     img {
       width:100%;
       height:auto;
+      cursor:pointer;
     }
   }
   .tabs {
@@ -52,8 +57,12 @@
         color:#fff;
         border-bottom:2px solid $medium-purple;
         display:block;
-        padding:20px;
+        padding:15px 15px 15px 25px;
         cursor:pointer;
+        font-size:14px;
+        &:hover {
+          color: $orange;
+        }
       }
     }
   }
@@ -91,21 +100,32 @@
     top:20px;
   }
   .header-title {
-    margin-left:10vw;
-    margin-bottom:30px;
+    margin-left:7vw;
+    margin-bottom:20px;
+    h1 {
+      border-bottom:2px solid $purple;
+      padding-bottom:10px;
+    }
+    p {
+      font-style:italic;
+      font-size:14px;
+      margin-bottom:10px;
+      color:$gray;
+    }
     .info {
       width:100%;
       img {
-        width:50px;
+        width:40px;
         height:auto;
         display:inline-block;
-        margin-right:10px;
+        margin-right:5px;
       }
       span {
         font-family: 'Lato', sans-serif;
-        font-style:italic;
         color:$gray;
-        font-size:16px;
+        font-size:14px;
+        margin-right:20px;
+        margin-top:6px;
       }
     }
   }
@@ -115,7 +135,7 @@
   margin:0 auto;
   margin-top:30px;
   max-width:600px;
-  margin-left:10vw;
+  margin-left:7vw;
   .powerup-link img{
     width:200px;
     height:auto;

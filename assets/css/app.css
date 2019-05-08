@@ -10589,6 +10589,11 @@ p {
       flex-shrink: 0;
 }
 
+.navigation .nav-links-wrap {
+  overflow-y: scroll;
+  max-height: 90vh;
+}
+
 .navigation .logo {
   padding: 20px 20px 0px 20px;
   background: #6848A5;
@@ -10597,6 +10602,7 @@ p {
 .navigation .logo img {
   width: 100%;
   height: auto;
+  cursor: pointer;
 }
 
 .navigation .tabs {
@@ -10641,8 +10647,13 @@ p {
   color: #fff;
   border-bottom: 2px solid #795DB0;
   display: block;
-  padding: 20px;
+  padding: 15px 15px 15px 25px;
   cursor: pointer;
+  font-size: 14px;
+}
+
+.navigation .tab-content ul li:hover {
+  color: #FEB54F;
 }
 
 .main-content {
@@ -10684,8 +10695,20 @@ p {
 }
 
 .powerup-header .header-title {
-  margin-left: 10vw;
-  margin-bottom: 30px;
+  margin-left: 7vw;
+  margin-bottom: 20px;
+}
+
+.powerup-header .header-title h1 {
+  border-bottom: 2px solid #816AAE;
+  padding-bottom: 10px;
+}
+
+.powerup-header .header-title p {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #A6A6A6;
 }
 
 .powerup-header .header-title .info {
@@ -10693,17 +10716,18 @@ p {
 }
 
 .powerup-header .header-title .info img {
-  width: 50px;
+  width: 40px;
   height: auto;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .powerup-header .header-title .info span {
   font-family: 'Lato', sans-serif;
-  font-style: italic;
   color: #A6A6A6;
-  font-size: 16px;
+  font-size: 14px;
+  margin-right: 20px;
+  margin-top: 6px;
 }
 
 .powerup-content {
@@ -10711,7 +10735,7 @@ p {
   margin: 0 auto;
   margin-top: 30px;
   max-width: 600px;
-  margin-left: 10vw;
+  margin-left: 7vw;
 }
 
 .powerup-content .powerup-link img {
