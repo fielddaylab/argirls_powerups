@@ -10592,6 +10592,7 @@ p {
 .navigation .nav-links-wrap {
   overflow-y: scroll;
   max-height: 90vh;
+  padding-bottom: 80px;
 }
 
 .navigation .logo {
