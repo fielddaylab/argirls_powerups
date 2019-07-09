@@ -7,49 +7,458 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Bootstrap Stater</title>
+    <title>AR Girls Powerups</title>
 
-    <!-- Icons for this template -->
-    <link href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Lato:400,400i" rel="stylesheet">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/app.min.css">
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
+<div class="wrap">
+  <div class="navigation">
+    <div class="logo">
+      <img data-target="#maincarousel" data-slide-to="0" src="assets/img/mark.png" />
+      <div class="tabs">
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" href="#how" data-toggle="tab" role="tab" aria-controls="how" aria-selected="true">How do i?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contents" data-toggle="tab" role="tab" aria-controls="contents" aria-selected="false">Contents</a>
+          </li>
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i> Search </button>
-        </form>
+      </div>
     </div>
-</nav>
+    <div class="tab-content" id="myTabContent">
 
-<main role="main" class="container">
-    <div class="jumbotron text-center">
-        <img src="assets/img/logo.png"/>
-        <h1>Bootstrap 4 Starter Template</h1>
-        <p class="lead">This example is a quick bootstrap starter template.</p>
-        <a class="btn btn-lg btn-primary" href="https://getbootstrap.com/docs/4.1/getting-started/introduction/" role="button" target="_blank">View Bootstrap 4.1 Docs &raquo;</a>
+      <!--how do I questions:-->
+      <div class="nav-links-wrap tab-pane fade show active" id="how" role="tabpanel" aria-labelledby="home-tab">
+        <ul>
+          <li data-target="#maincarousel" data-slide-to="1">modify images so they look better?</li>
+          <li data-target="#maincarousel" data-slide-to="1">change an image's resolution?</li>
+          <li data-target="#maincarousel" data-slide-to="1">change an image's file type?</li>
+          <li data-target="#maincarousel" data-slide-to="2">move media from my iPad to my laptop? </li>
+          <li data-target="#maincarousel" data-slide-to="2">share media with my team using google drive?</li>
+          <li data-target="#maincarousel" data-slide-to="3">reduce a video's file size?</li>
+          <li data-target="#maincarousel" data-slide-to="3">change the type of a video file?</li>
+          <li data-target="#maincarousel" data-slide-to="4">combine video clips?</li>
+          <li data-target="#maincarousel" data-slide-to="4">add titles to a video?</li>
+          <li data-target="#maincarousel" data-slide-to="5">make a QR code in ARIS?</li>
+          <li data-target="#maincarousel" data-slide-to="6">create an augmented reality monument?</li>
+          <li data-target="#maincarousel" data-slide-to="6">celebrate my awesome contributions to the world?</li>
+          <li data-target="#maincarousel" data-slide-to="7">save time?</li>
+          <li data-target="#maincarousel" data-slide-to="7">make my project better?</li>
+          <li data-target="#maincarousel" data-slide-to="7">think about how my story/game will unfold?</li>
+          <li data-target="#maincarousel" data-slide-to="8">make my own drawings?</li>
+          <li data-target="#maincarousel" data-slide-to="9">test my game?</li>
+          <li data-target="#maincarousel" data-slide-to="9">find out if my game is good?</li>
+          <li data-target="#maincarousel" data-slide-to="10">use photos and videos in ARIS?</li>
+          <li data-target="#maincarousel" data-slide-to="10">upload photos and videos to ARIS?</li>
+          <li data-target="#maincarousel" data-slide-to="11">create a character to talk with?</li>
+          <li data-target="#maincarousel" data-slide-to="12">make something in ARIS?</li>
+          <li data-target="#maincarousel" data-slide-to="12">tell a story with ARIS?</li>
+          <li data-target="#maincarousel" data-slide-to="13">make something appear or dissapear?</li>
+          <li data-target="#maincarousel" data-slide-to="13">add interactivity to ARIS?</li>
+          <li data-target="#maincarousel" data-slide-to="14">animate an image using AR?</li>
+          <li data-target="#maincarousel" data-slide-to="15">make something random happen in ARIS?</li>
+          <li data-target="#maincarousel" data-slide-to="15">control how the exit and continue buttons work in ARIS?</li>
+        </ul>
+      </div>
+      <!--table of contents-->
+      <div class="nav-links-wrap tab-pane fade" id="contents" role="tabpanel" aria-labelledby="profile-tab">
+        <ul>
+          <li data-target="#maincarousel" data-slide-to="1">Photo Editing 101 (Apple Photos)</li>
+          <li data-target="#maincarousel" data-slide-to="2">Media Workflow</li>
+          <li data-target="#maincarousel" data-slide-to="3">Video Transcoding</li>
+          <li data-target="#maincarousel" data-slide-to="4">Video Editing in iMovie</li>
+          <li data-target="#maincarousel" data-slide-to="5">Triggers - QR Codes</li>
+          <li data-target="#maincarousel" data-slide-to="6">A virtual monument about YOU</li>
+          <li data-target="#maincarousel" data-slide-to="7">Storyboarding</li>
+          <li data-target="#maincarousel" data-slide-to="8">Creating Drawings in Sketchbook</li>
+          <li data-target="#maincarousel" data-slide-to="9">Playtesting and Debugging</li>
+          <li data-target="#maincarousel" data-slide-to="10">Media in ARIS</li>
+          <li data-target="#maincarousel" data-slide-to="11">ARIS Characters and Conversations</li>
+          <li data-target="#maincarousel" data-slide-to="12">Interactive Storytelling in ARIS</li>
+          <li data-target="#maincarousel" data-slide-to="13">Advanced Locks in ARIS</li>
+          <li data-target="#maincarousel" data-slide-to="14">Augmented Reality in ARIS</li>
+          <li data-target="#maincarousel" data-slide-to="15">Javascript Programming in ARIS</li>
+          <li data-target="#maincarousel" data-slide-to="16">HTML For Style</li>
+          <li data-target="#maincarousel" data-slide-to="17">Items in ARIS</li>
+        </ul>
+      </div>
+
+
     </div>
-</main>
+  </div>
+  <div class="main-content">
+    <div id="maincarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+      <div class="carousel-inner">
 
+        <!--carousel item default open-->
+        <div id="slide2" class="carousel-item active item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>Welcome to AR Girls Power Ups!</h1>
+              <div class="info">              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>Here are a list of questions you may be asking or things you know you want to learn to Power Up your digital media skills!. Before you dive into making games with ARIS, be sure to go through the Interactive Storytelling in ARIS Power Up.</p>
+            <a href="https://docs.google.com/document/d/104s54YcJzXJ9Y4NzalSNcBzzvC1XWUqWne0NZIgvOy4/edit#heading=h.nj23sjpj5u97" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+
+        <!--carousel item 1-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>Photo Editing 101 (Apple Photos)</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/media.png"/><span>Media Guru</span><img src="assets/img/artist.png"/><span>Digital Artist</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>The purpose of this Power Up is to learn how to pull files down from google drive, do some basic editing with Apple Photos, then save them so they can be used by other digital media software.</p>
+            <a href="https://docs.google.com/document/d/1Xm54YIqd4dj2fxpdW0FoGBFRVYhBeszIDS_lOnAc6d8/edit#" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>Media Workflow</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/media.png"/><span>Media Guru</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this Power Up you will use Airdrop and Google drive to move your media between devices and people.</p>
+            <a href="https://docs.google.com/presentation/d/1RKAwBUhkrj7_-lDORLeY5N9_fTx48kzRK30Xw6C-KV0/edit#slide=id.g3deffb86f5_0_0" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>Video Transcoding</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/media.png"/><span>Media Guru</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this Power Up you will use Handbrake to transcode video files to decrese their size and make them ready for use in digital media software like ARIS</p>
+            <a href="https://docs.google.com/presentation/d/1aljFhxAEXUupzhzYI5Mq-6baD5hrkZkCxhWm8wfjbWg/edit#slide=id.g3dbe8d3d50_0_6" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>Video Editing in iMovie</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/media.png"/><span>Media Guru</span>
+                <img src="assets/img/artist.png"/><span>Digital Artist</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this power up, you will use iMove to edit video clips together, add titles and export for use in other digital media software.</p>
+            <a href="https://docs.google.com/presentation/d/1bI-B2kF3QolUrxfx3e_ITlSbsHjLE0jzG68LPGY7Z7Y/edit#slide=id.g3dbe8d3d50_0_6" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>Triggers - QR Codes</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/program.png"/><span>Aris Programmer</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this Power Up, you will setup a QR code to trigger some ARIS content.</p>
+            <a href="https://docs.google.com/presentation/d/1bIFgZ9URmzdxizSjN51-UvB0t_Lfb4mPTFyTQr1sgvg/edit#slide=id.g3de6542f0d_0_41" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>A virtual monument about YOU</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/program.png"/><span>Aris Programmer</span>
+                <img src="assets/img/story.png"/><span>Storyteller</span>
+                <img src="assets/img/artist.png"/><span>Digital Artist</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this Power Up, you will make a virtual plaque commemorating your amazing contributions to the world. Hey why not?</p>
+            <a href=""
+https://docs.google.com/presentation/d/1BpQit9qjiTm3E9Nkys2DaybW1r6roeJI5Vz6TBAJOn8/edit#slide=id.g3e18a5435e_0_0"" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>Storyboarding</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/ux.png"/><span>UX Designer</span>
+                <img src="assets/img/story.png"/><span>Storyteller</span>
+                <img src="assets/img/artist.png"/><span>Digital Artist</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this Power Up you will learn to use storyboarding as a tool for planning a complex ditial media project.</p>
+            <a href="https://docs.google.com/presentation/d/1_G1-Gd5ZiQsCqJ5i7jnIjnDIBkOKBoYumjI0L3mDEIU/edit#slide=id.g3de63d6b54_0_0" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>Creating Drawings in Sketchbook</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/artist.png"/><span>Digital Artist</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this Power Up you will learn to digitally paint, sketch and work with images of your own making</p>
+            <a href=""https://docs.google.com/presentation/d/17xay2Yu0wbF7y16IzK9xiccIeMsiCxvm8lMJIgbeEdY/edit#slide=id.p
+"" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>Playtesting and Debugging</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/program.png"/><span>Aris Programmer</span>
+                <img src="assets/img/ux.png"/><span>UX Designer</span>
+                <img src="assets/img/research.png"/><span>Researcher</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this Power Up, you will learn how to test your ARIS project and find out if people are responding the way you want.</p>
+            <a href="https://docs.google.com/presentation/d/1Yuqnjw90JCy5WABFmkGA9mRbQJt1XfbHcH7ESpSWXiA/edit#slide=id.g3de6f73424_0_0" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>Media in ARIS</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/program.png"/><span>Aris Programmer</span>
+                <img src="assets/img/media.png"/><span>Media Guru</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this Power Up you will learn how to use media created by other programs in ARIS</p>
+            <a href="https://docs.google.com/presentation/d/1yuObmoesdRG6hGGsNmyaXi4BgyBIut1VLaoOFISflsU/edit#slide=id.g3dbe8d3d50_0_0" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>ARIS Characters and Conversations</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/program.png"/><span>Aris Programmer</span>
+                <img src="assets/img/story.png"/><span>Storyteller</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this Power Up you will create a virtual character in ARIS and author the topics they can talk about.</p>
+            <a href="https://docs.google.com/presentation/d/1rmzaLLXWTNLybfmgArH3IP-YTGv1aFNlzYts5YdnjOo/edit#slide=id.g3d94447786_0_12" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>Interactive Storytelling in ARIS</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/program.png"/><span>Aris Programmer</span>
+                <img src="assets/img/story.png"/><span>Storyteller</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this Powerup, you will create a fully featured ARIS story based on a protest that took place back in 1969. </p>
+            <a href="In this Powerup, you will create a fully featured ARIS story based on a protest that took place back in 1969. " class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>Advanced Locks in ARIS</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/program.png"/><span>Aris Programmer</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this Power Up you will learn how to use ARIS locks to make ARIS content appear or disapear depending on what your player does.</p>
+            <a href="https://docs.google.com/document/d/1tgepKdO6H67t9zjRduVG905CdN81gMinyFsKThGM73M/edit#heading=h.nj23sjpj5u97" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>Augmented Reality in ARIS</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/program.png"/><span>Aris Programmer</span>
+                <img src="assets/img/media.png"/><span>Media Guru</span>
+                <img src="assets/img/artist.png"/><span>Digital Artist</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this Power Up you will learn how to make an image in the real world come to life on the ARIS screen.</p>
+            <a href="https://docs.google.com/document/d/1Iunc7E8nyuM28F6ivsaP0vxM64e_llagyqpHiQn3dVU/edit#heading=h.nj23sjpj5u97" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>Javascript Programming in ARIS</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/program.png"/><span>Aris Programmer</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this Power Up you will add some JavaScript code to your ARIS game, giving you much more control than simply reling on the online editor.</p>
+            <a href="https://docs.google.com/document/d/1Sc-WA3XeChqm3wXnYEtA82pgiozS9l8ZkZjt96B6Twc/edit" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>HTML For Style</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/program.png"/><span>ARIS Programmer</span>
+                <img src="assets/img/ux.png"/><span>UX Designer</span>
+                <img src="assets/img/artist.png"/><span>Digital Artist</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this Power Up you will add some JavaScript code to your ARIS game, giving you much more control than simply reling on the online editor.</p>
+            <a href="https://docs.google.com/presentation/d/1Q3oRLqOTFD5aGO9I5YuQiQI2Tr58TR0A_bBEd2FYqG4/edit#slide=id.g3de76e6ea5_0_0" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+        <!--carousel item-->
+        <div class="carousel-item item">
+          <div class="powerup-header">
+            <span class="header-graphic"></span>
+            <div class="header-title">
+              <h1>Items in ARIS</h1>
+              <div class="info">
+                <p>This powerup is part of the following badges:</p>
+                <img src="assets/img/program.png"/><span>ARIS Programmer</span>
+                <img src="assets/img/research.png"/><span>Researcher</span>
+                <img src="assets/img/story.png"/><span>Storyteller</span>
+                <img src="assets/img/artist.png"/><span>Digital Artist</span>
+              </div>
+            </div>
+          </div>
+          <div class="powerup-content">
+            <p>In this Power Up you will add some JavaScript code to your ARIS game, giving you much more control than simply reling on the online editor.</p>
+            <a href="https://docs.google.com/presentation/d/1V5knXZouaMe22w7vCHIH0lN-mIXRUvp0tbhXwRPD1P0/edit#slide=id.g3ea158f6ac_0_0" class="powerup-link" target="_blank"><img src="assets/img/button.png" /></a>
+          </div>
+        </div>
+        <!--end carousel item-->
+
+
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
